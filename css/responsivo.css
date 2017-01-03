@@ -1,0 +1,61 @@
+/**estilo para tablets ***/
+@media only screen and (min-width: 768px) and (max-width: 959px){
+
+}
+
+
+/***estilo para smartphone **/
+@media only screen and (max-width: 767px){
+
+.header{
+	position: relative;
+	padding-bottom: 0;
+}
+
+.header img{
+	margin: 0 auto 10px auto;
+}
+
+.rede-social{
+	margin-right: 85px;
+	margin-top: 10px;
+}
+
+.btn{
+	border: 3px solid #fff;
+	color: #fff;
+	padding: 10px;
+	margin-top: 20px;
+	margin-right: 60px;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: .1em;
+	font-weight: bold;
+
+}
+
+.btn:hover{
+	border: 3px solid #5eb5e1;
+	color: #5eb5e1;
+	padding: 10px;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: .1em;
+	font-weight: bold;
+}
+
+.btn .btn_contato{
+	margin-top: 20px;
+}
+
+.btn_info{
+	margin: auto;
+	margin-top: 20px;
+}
+
+/*** FOOTER ***/
+
+
+
+
+}
