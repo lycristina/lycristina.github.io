@@ -34,8 +34,9 @@ img{
 	float: right;
 }
 
-span{
-	color: #fff;
+
+.btn-social{
+	margin: 0 10px 0 10px;
 }
 
 a.btn-social{
@@ -44,7 +45,13 @@ a.btn-social{
 
 a.btn-social:hover{
 	text-decoration: underline;
+	color: #666
 }
+
+span{
+	color: #fff;
+}
+
 
 /*** PORTFOLIO ****/
 
