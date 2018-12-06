@@ -76,12 +76,12 @@ a.btn{
 
 @media (max-width: 992px) {
     .navbar-collapse {
-        background: white;
+        background: #293337;
         padding-left: 20px;
     }
     
     .navbar-dark .navbar-nav .nav-link{ 
-        color: #45839b;
+        color: #fff;
     
     }
     
