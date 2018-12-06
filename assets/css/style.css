@@ -1,0 +1,75 @@
+body {
+    font-family: 'Muli', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+.navbar.compressed {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #293337;
+    color: white;
+}
+    
+.navbar-brand.changecolorlogo {
+    height: auto;
+    filter: brightness(0) invert(1);
+}
+    
+.navbar-nav.changecolormenu a,
+.navbar-nav.changecolormenu a.active {
+    color: white !important;
+}
+
+.navbar-nav.changecolormenu li a:hover,
+.navbar-nav.changecolormenu li.active a {
+    color: #45839b !important;
+    background-color: transparent;
+}
+
+.bg-blue-dark {
+    background: #293337;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{
+    color: #45839b;
+}
+
+.masthead {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../img/bg-code.png");
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.7))), url("../img/bg-code.png");
+    background-attachment: scroll, scroll;
+    background-size: auto auto, auto auto;
+}
+
+
+.project-text{
+    padding: 5rem;
+}
+
+a.btn{
+    border: 1px solid #45839b;
+    margin: 15px 0 0 0;
+}
+
+.link-blue{
+    color: #45839b;
+}
+
+.link-blue:hover{
+    color: #45839b;
+}
+
+/*** SOBRE **/
+
+#sobre {
+    color: #fff;
+}
+
+#sobre a {
+    color: #45839b;
+}
+
+.img-skills{
+    margin: 0 20px 0 20px;
+}
